@@ -100,3 +100,12 @@ footer {
   align-items: center;
   height: 50vh;
 }
+
+a:hover {
+  color: gray;
+}
+
+a.active {
+  color: black;
+  font-weight: 700;
+}

@@ -1,6 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
 import Root from '../layouts/Root';
 import NotFound from '../components/NotFound';
+import Shop from '../components/Shop';
+import Blog from '../components/Contact';
+import ProductPage from './../components/Product';
+import About from '../components/About';
+import Home from '../components/Home';
 
 export const router = createBrowserRouter([
   {
@@ -8,11 +13,12 @@ export const router = createBrowserRouter([
     element: <Root />,
     errorElement: <NotFound />,
     children: [
-      { index: true, element: <h1>about</h1> },
-      { path: '/shop', element: <h1>shop</h1> },
-      { path: '/about', element: <h1>about</h1> },
-      { path: '/contact', element: <h1>contact</h1> },
-      { path: '/product', element: <h1>contact</h1> },
+      { index: true, element: <Home /> },
+      { path: '/shop', element: <Shop /> },
+      { path: '/about', element: <About /> },
+      { path: '/contact', element: <Blog /> },
+      { path: '/product', element: <ProductPage /> },
+      // { path: '/product/:id', element: <h1>productId</h1> },
     ],
   },
 ]);

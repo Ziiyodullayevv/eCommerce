@@ -1,0 +1,160 @@
+.blog-parent {
+  margin: 10px;
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  justify-content: space-between;
+}
+.header-center img {
+  width: 100%;
+
+  background-size: cover;
+}
+.Blog {
+  text-align: center;
+  position: absolute;
+  left: 650px;
+}
+.h4 {
+  gap: 10px;
+  display: flex;
+  margin-top: 14px;
+  text-align: center;
+  align-items: center;
+}
+.blog-l {
+  width: 70%;
+  pad: 10px;
+  text-align: center;
+}
+.blog-r {
+  width: 30%;
+}
+.card-p {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 150px;
+  display: flex;
+  color: gray;
+  gap: 20px;
+}
+.card img {
+  margin-top: 40px;
+}
+.card h2 {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 300px;
+}
+.card h4 {
+  display: flex;
+  margin-top: 20px;
+  font-size: 15px;
+  color: gray;
+  justify-content: center;
+  text-align: start;
+}
+.card button {
+  display: flex;
+  margin-left: 130px;
+  margin-top: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  height: 36px;
+  width: 89px;
+}
+
+.categoria input {
+  margin-top: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  align-items: center;
+  width: 311px;
+  height: 40px;
+}
+.blog-r {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.blog-container {
+  width: 80%;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.blog-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-bottom: 2px solid #ddd;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.blog-post {
+  width: 65%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.blog-post h2 {
+  color: #333;
+}
+
+.blog-post p {
+  color: #666;
+}
+
+.blog-post button {
+  background: #b88e2f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.text button:hover {
+  background: #a07822;
+}
+
+.text {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+}
+.resnt {
+  margin-top: 60px;
+  text-align: center;
+}
+.copy {
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+.text2 {
+  font-size: 18px;
+  text-align: start;
+}

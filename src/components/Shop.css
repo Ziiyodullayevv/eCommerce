@@ -1,0 +1,82 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shop {
+  padding: 100px 0;
+  background-image: url('./orqarasm.svg');
+}
+
+.shop-tepa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4 span {
+  font-weight: 600;
+}
+
+h4 {
+  font-weight: 200;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 23%;
+  gap: 5px;
+  background-color: #f4f5f7;
+  border-radius: 10px;
+}
+
+.box h2 {
+  color: #3a3a3a;
+  font-size: 30px;
+}
+
+.box p {
+  color: #3a3a3a;
+  font-size: 20px;
+}
+
+.box-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.shop-pas {
+  margin: 30px 0;
+}
+.rp {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rp h4 {
+  text-decoration: line-through;
+}
+
+.img {
+  width: 100%;
+}
+
+.shop-parent {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
